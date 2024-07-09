@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--======== BOX ICONS =======-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--======== CSS ========-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>My resume</title>
+</head>
+<body>
+    <!--======= HEADER =======-->
+    <header class="header-1" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Jully</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt nav_icon'></i>Home
+                        </a>
+                    </li>
+                    
+                  
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Profile
+                        </a>
+                    </li>
+
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bx-book nav_icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase nav_icon' ></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#references" class="nav_link">
+                            <i class='bx bx-link-external nav_icon' ></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <main class="1-main bd-container">
+
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!--====== HOME ======-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="assets/Profile_img.jpg" alt="" class="home_img">
+
+                            <h1 class="home_title">JULLY <b>ACHENCHI</b></h1>
+                            <h3 class="home_profession">Juniour Solutions Architect</h3>
+
+                            <!--Button to download your CV saved in the pdf folder. Available for mobile -->
+                            <div>
+                                <a download="" href="assets/JULLY ACHENCHI_CV.pdf" class="home_button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon' ></i>Nairobi, Kenya
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon' ></i>jullyachenchi8@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon' ></i>+254705021210
+                            </span>
+
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+                    
+                    <!-- Button to generate and download the pdf. Available for desktop -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!--========= SOCIAL ========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/in/jully-achenchi/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin social_icon' ></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/achenchi7" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon' ></i>Github
+                        </a>  
+                        <a href="https://hng.tech/" target="_blank" class="social_link">
+                            <i class='bx bxs-hard-hat social_icon'></i>Currently doing the HNG Internship
+                        </a>
+                    </div>
+                </section>
+
+                <!--======== PROFILE ========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile-description">An aspiring solutions architect with a keen focus on AWS technologies with a solid foundation in AWS
+                        fundamentals, coupled with a relentless drive to excel in cloud computing. Eager to leverage my
+                        technical skills and critical thinking to contribute effectively to dynamic teams. Team player and
+                        committed to continuous learning and growth in pursuit of becoming a proficient Solutions Architect.</p>
+                </section>
+
+
+                <!--======== EDUCATION =======-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                 <span class="education_rounder"></span>
+                                 <span class="education_line"></span> 
+                            </div> 
+                            <div class="education_data bd-grid">
+                                 <h3 class="education_title">AWS Cloud computing</h3>
+                                 <span class="education_studies">ALX Africa</span>
+                                 <span class="education_year">March 2024 - Present</span>
+                            </div>
+                         </div>
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                 <span class="education_rounder"></span>
+                                 <span class="education_line"></span> 
+                            </div> 
+                            <div class="education_data bd-grid">
+                                 <h3 class="education_title">Cloud Engineering</h3>
+                                 <span class="education_studies">Azubi Africa</span>
+                                 <span class="education_year">Dec 2023 - Aug 2024</span>
+                            </div>
+                         </div>
+
+                        <div class="education_content">
+                           <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!--<span class="education_line"></span>-->
+                           </div> 
+                           <div class="education_data bd-grid">
+                                <h3 class="education_title">Bsc. Geospatial Information Science</h3>
+                                <span class="education_studies">Jomo Kenyatta University of Agriculture and Technology</span>
+                                <span class="education_year">2018 - 2023</span>
+                           </div>
+                        </div>
+
+
+                        
+
+                    </div>
+                </section>
+
+                <!--======== SKILLS ========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>HTML/CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>AWS services
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Iac using Terraform
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Github Actions
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Linux Automation
+                            </li>
+                        </ul>
+
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Teamwork
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Agile technologies
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Critical thinking
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </section>
+
+            </div>
+            <div class="resume_right">
+                <!--======= EXPERIENCE =======-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Extern, Mobalytics Remote Externship</h3>
+                                <span class="experience_company">Apr 2024 to May 2024 </span>
+                                <ul class="experience_description">
+                                    <li class="experience_list1"> Market Research: I explored a high-level overview of the following games- Pokemon Go and
+                                     Fortnite and conducted a deep dive analysis into player psychology.</li>
+                                    
+                                    <li class="experience_list2">Presentation & Public Speaking: I summarized my research and made a compelling presentation
+                                        that highlights the key takeaways and recommendations to Mobalytics on market expansion
+                                        opportunities.</li>
+                                        
+                                    <li class="experience_list3">Brand Positioning: I conducted a brand and communication sentiment analysis.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <!--<span class="experience_line"></span>-->
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Intern, Esri Eastern Africa</h3>
+                                <span class="experience_company">Jan 2022 to Apr 2022</span>
+                                <ul class="experience_description">
+                                    <li class="experience_list1"> Assisted in the development of an ArcGIS tool to streamline the land acquisition process,
+                                        facilitating accurate determination of land area and compensation amounts</li>
+                                    
+                                    <li class="experience_list2">Led a team in integrating ArcGIS PRO, Survey 123, Field Maps, dashboards, and a web app to
+                                        enable effective project monitoring and evaluation for a non-profit organization</li>
+                                        
+                                    <li class="experience_list3">Developed a presentation outlining key findings in the project, leading to a successful
+                                        completion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--======== PROJECTS =========-->
+                <section class="projects section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="project_container bd-grid">
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="project_data bd-grid">
+                                <h3 class="project-title">30 Days AWS cloud challenge</h3>
+                                <a href="https://github.com/achenchi7/30-Days-cloud-challenge-" target="_blank" class="project_link">
+                                    <i class='bx bxl-github project-icon' ></i>Github Link
+                                </a>
+                                <span class="project_duration">Mar 2024 to Apr 2024</span>
+                                <ul class="project_description">
+                                    <li class="project_list1">Launched an AWS S3 bucket and configured the bucket for static website hosting</li>
+                                    
+                                    <li class="project_list2">Implemented security measures by making use of IAM roles and user policies</li>
+                                        
+                                    <li class="project_list3">I launched EC2 instances in the same region but different availability zones</li>
+                                    <li class="project_list4">Created my resume using HTML, CSS and JavaScript</li>
+                                </ul>
+                            </div>
+
+                        </div> 
+                        
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <!--<span class="project_line"></span>-->
+                            </div>
+
+                            <div class="project_data bd-grid">
+                                <h3 class="project-title">Bash scripting</h3>
+                                <a href="https://github.com/achenchi7/Azubi-Cloud-computing--9M" target="_blank" class="project_link">
+                                    <i class='bx bxl-github project-icon' ></i>Github Link
+                                </a>
+                                <span class="project_duration">Jan 2024</span>
+                                <p class="project_description">Wrote an elaborate bash script that allows a user to perform basic functions - create a
+                                    directory, list contents in an existing directory, create a new file, delete an existing file, and
+                                    delete a directory from the Linux (Ubuntu) terminal</p>
+                            </div>
+
+                        </div>  
+                        
+
+                        
+                        
+                    </div>
+
+
+                </section>
+
+                <!--======== CERTIFICATES ========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate_container bd-grid">
+                        <div class="certificate_container">
+                            <h3 class="certificate_title">Certificate of completion</h3>
+                            <p class="certificate_description">Certificate issued by Extern for the completion of Mobalytics Remote Externship</p>
+                            <a href="https://www.credential.net/e6d0ff01-9168-4999-8329-cd252239dd60#gs.9yrpsv" target="_blank" class="certificate_link">
+                                <i class='bx bx-link-external certificate_icon'></i>Link
+                            </a>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!---======== REFERENCES ========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="refences container bd-grid">
+                        <div class="references_content">
+                            <p class="references_description">References shall be provided upon request</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--======= INTERESTS =======-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests_container bd-grid">
+                        <div class="interests_content">
+                            <i class='bx bx-cycling interests_icon' ></i>
+                            <span class="interests_name">Cycling</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class='bx bx-book-reader interests_icon' ></i>
+                            <span class="interests_name">Reading</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class='bx bx-basketball interests_icon' ></i>
+                            <span class="interests_name">Playing Volleyball</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!--======== WEBSITE COUNTER ========-->
+                <div class="website-counter">
+                    <p class="count-description">Number of site visits is:</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon' ></i>
+    </a>
+
+    <!--====== HTML2PDF =====-->
+    <script src="html2pdf.bundle.min.js"></script>
+
+    <!--=== MAIN JS ===-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
